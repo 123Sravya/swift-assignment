@@ -35,6 +35,9 @@ header {
 .search{
   display:flex;
   justify-items: end;
+  background-color: #ddd;
+  color: white;
+  
 }
 .table th {
   background-color: #f3f4f6;
