@@ -1,3 +1,58 @@
+# 📊 Frontend Dashboard Assignment – Swift
+
+This is a frontend dashboard built with **React** to fulfill the internship assignment requirements. It uses dummy data from the `jsonplaceholder.typicode.com` API to display user and comment information in a clean and interactive UI.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with functional components and hooks)
+- **React Router DOM** for navigation
+- **Custom CSS** (no external UI libraries)
+- Dummy APIs from [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+
+---
+
+## 🔗 Live Features
+
+### 👤 Profile Screen
+- Fetches the **first user** from the Users API.
+- Displays user's ID, Name, Email, Address, and Phone.
+- Not editable.
+- Route: `/profile`
+
+### 💬 Comments Dashboard
+- Fetches all 500 comments from the Comments API.
+- Displays data in a **paginated**, **sortable**, and **searchable** table.
+- Supports sorting by:
+  - Post ID
+  - Name
+  - Email
+- Pagination options: 10, 50, 100 per page.
+- Filters and sorts update on the fly.
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/frontend-dashboard.git
+cd frontend-dashboard
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +94,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
